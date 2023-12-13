@@ -20,7 +20,6 @@ public class UcgenAlanHesaplama {
         System.out.print("Hipotenüsü giriniz : ");
         hipotenus = cozum.nextDouble();
 
-
         cevre = a + b + hipotenus;
         System.out.println("Üçgenimizin çevresi : " + cevre);
 
@@ -28,7 +27,6 @@ public class UcgenAlanHesaplama {
         d = cevre / 2;
 
         // Burada alan formulünü kullanarak girilen değerler sonucunda üçgenimizin alanı hesaplanıyor.
-
         alan = Math.sqrt(d * (d - a) * (d - b) * (d - hipotenus));
         System.out.println("Üçgenimizin alanı : " + alan);
     }
