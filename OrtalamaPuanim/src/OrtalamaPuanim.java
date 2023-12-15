@@ -66,7 +66,6 @@ public class OrtalamaPuanim {
         System.out.println("Ortalamanız " + average);
 
 
-
-        }
-
     }
+
+}
