@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DortveBesinKatlari {
+public class DortveBesinKuvveti {
     public static void main(String[] args) {
         int number;
 
