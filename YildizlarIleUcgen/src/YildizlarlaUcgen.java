@@ -22,10 +22,31 @@ public class YildizlarlaUcgen {
             while (star <= (2 * line) - 1) {
                 System.out.print("*");
                 star++;
+
             }
             System.out.println();
-            line++; // Döngüm devam ederken satırı doğru oluşturabilmesi için line++ buraya ekledim.
+            line++;
         }
+        line = number - 1;
+        while (line >= 1) {
 
+            int space = 1;
+            while (space <= (number - line)) {
+                System.out.print(" ");
+                space++;
+            }
+            int star = 1;
+            while (star <= (2 * line) - 1) {
+                System.out.print("*");
+                star++;
+
+            }
+
+            System.out.println();
+            line--; // Döngüm devam ederken satırı doğru oluşturabilmesi için line-- buraya ekledim.
+
+        }
     }
+
 }
+
